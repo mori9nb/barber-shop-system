@@ -1,0 +1,16 @@
+{
+  "header": {
+    "title": "VIP Salon",
+    "subtitle": "Elegance and Style"
+  },
+  "booking": {
+    "title": "VIP Salon Services",
+    "duration": "min",
+    "currency": "€"
+  },
+  "services": {
+    "haircut": "Haircut & Beard",
+    "keratin": "Keratin Treatment",
+    "facial": "Facial Cleansing (VIP)"
+  }
+}

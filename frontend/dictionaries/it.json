@@ -1,0 +1,16 @@
+{
+  "header": {
+    "title": "Salone VIP",
+    "subtitle": "Eleganza e Stile"
+  },
+  "booking": {
+    "title": "Servizi del Salone VIP",
+    "duration": "min",
+    "currency": "€"
+  },
+  "services": {
+    "haircut": "Taglio Capelli e Barba",
+    "keratin": "Trattamento Cheratina",
+    "facial": "Pulizia Viso (VIP)"
+  }
+}
