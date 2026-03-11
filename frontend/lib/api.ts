@@ -46,3 +46,14 @@ export const getAvailableTimeSlots = async (barberId: number, serviceId: string,
         }, 800);
     });
 };
+
+// 👈 این تابع رو برای ثبت نهایی رزرو اضافه کن
+export const createBooking = async (data: any) => {
+    // فعلاً فقط دیتا رو تو کنسول لاگ می‌گیریم که ببینیم درست میاد یا نه
+    console.log("🚀 Booking Data Received:", data);
+
+    // شبیه‌سازی یه درخواست موفقیت‌آمیز به سرور (با نیم ثانیه تاخیر)
+    return new Promise((resolve) => {
+        setTimeout(() => resolve({ success: true }), 500);
+    });
+};
